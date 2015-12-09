@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ConnectSDK-CompanionLibrary-iOS_Example', :exclusive => true do
+  pod "ConnectSDK-CompanionLibrary-iOS", :path => "../"
+end
+
+target 'ConnectSDK-CompanionLibrary-iOS_Tests', :exclusive => true do
+  pod "ConnectSDK-CompanionLibrary-iOS", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
