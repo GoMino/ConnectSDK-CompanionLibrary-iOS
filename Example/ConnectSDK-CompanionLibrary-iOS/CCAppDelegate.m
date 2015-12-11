@@ -7,12 +7,17 @@
 //
 
 #import "CCAppDelegate.h"
+#import "ConnectCastManager.h"
 
 @implementation CCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[DiscoveryManager sharedManager] registerDeviceService:NSClassFromString(@"CastService") withDiscovery:NSClassFromString(@"CastDiscoveryProvider")];
+    [[DiscoveryManager sharedManager] registerDeviceService:NSClassFromString(@"OrangeCastService") withDiscovery:NSClassFromString(@"OrangeCastDiscoveryProvider")];
+    [[ConnectCastManager getInstance] performDeviceScan:YES];
     return YES;
 }
 

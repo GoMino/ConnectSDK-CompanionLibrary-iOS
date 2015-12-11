@@ -1,0 +1,39 @@
+{
+  "name": "ConnectSDK-CompanionLibrary-iOS",
+  "version": "0.1.0",
+  "summary": "iOS library for adding ConnectSDK cast features to existing apps.",
+  "description": "is a library project to enable developers integrate LG's ConnectSDK casting capabilities into their applications more easily",
+  "homepage": "https://github.com/gomino/ConnectSDK-CompanionLibrary-iOS",
+  "license": "Apache License, Version 2.0",
+  "authors": {
+    "Amine Bezzarga": "abezzarg@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gomino/ConnectSDK-CompanionLibrary-iOS.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/go_mino",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": false,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ConnectSDK-CompanionLibrary-iOS": [
+      "Pod/Assets/*.png",
+      "Pod/Classes/**/*.xib"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "ConnectSDK/Core": [
+      "~> 1.4.2"
+    ],
+    "AsyncImageView": [
+      "~> 1.5.1"
+    ],
+    "Masonry": [
+
+    ]
+  }
+}

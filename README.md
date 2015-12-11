@@ -26,4 +26,4 @@ Amine Bezzarga, abezzarg@gmail.com
 
 ## License
 
-ConnectSDK-CompanionLibrary-iOS is available under the MIT license. See the LICENSE file for more info.
+ConnectSDK-CompanionLibrary-iOS is available under the Apache license. See the LICENSE file for more info.

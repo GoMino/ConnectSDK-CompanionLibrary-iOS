@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Cast/ConnectCast/ConnectCastManagerDelegate.h

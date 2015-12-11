@@ -1,0 +1,43 @@
+PODS:
+  - AsyncImageView (1.5.1)
+  - ConnectSDK-CompanionLibrary-iOS (0.1.0):
+    - AsyncImageView (~> 1.5.1)
+    - ConnectSDK/Core (~> 1.4.2)
+    - Masonry
+  - ConnectSDK/Core (1.4.4):
+    - ConnectSDK/no-arc
+  - ConnectSDK/no-arc (1.4.4)
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (2.0.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0.3)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - Masonry (0.6.3)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - ConnectSDK-CompanionLibrary-iOS (from `../`)
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+
+EXTERNAL SOURCES:
+  ConnectSDK-CompanionLibrary-iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AsyncImageView: db9433939160710b34a5c249479e03af2a2121b0
+  ConnectSDK: 26e03d16b9846e32bc15abb89e0e679c487fe849
+  ConnectSDK-CompanionLibrary-iOS: 79e594adfd17eb4a957687a1f20419a7243b9285
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+COCOAPODS: 0.39.0

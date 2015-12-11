@@ -1,0 +1,14 @@
+framework module ConnectSDK {
+  umbrella header "ConnectSDK-umbrella.h"
+
+  export *
+  module * { export * }
+
+  private header "SSDPDiscoveryProvider_Private.h"
+  private header "ZeroConfDiscoveryProvider_Private.h"
+  private header "DLNAService_Private.h"
+  private header "AirPlayServiceHTTP_Private.h"
+  private header "DLNAHTTPServer_Private.h"
+  private header "WebOSTVServiceSocketClient_Private.h"
+  private header "NetcastTVService_Private.h"
+}

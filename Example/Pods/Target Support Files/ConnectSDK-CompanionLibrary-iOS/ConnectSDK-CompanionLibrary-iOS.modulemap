@@ -1,0 +1,6 @@
+framework module ConnectSDK_CompanionLibrary_iOS {
+  umbrella header "ConnectSDK-CompanionLibrary-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC2B9E51C18A5FE0068C4AE /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9791C18A5FE0068C4AE /* GoogleCast.framework */; };
+		3FC2B9E61C18A5FE0068C4AE /* CastDiscoveryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B97C1C18A5FE0068C4AE /* CastDiscoveryProvider.m */; };
+		3FC2B9E71C18A5FE0068C4AE /* CastService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B97E1C18A5FE0068C4AE /* CastService.m */; };
+		3FC2B9E81C18A5FE0068C4AE /* CastServiceChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B9801C18A5FE0068C4AE /* CastServiceChannel.m */; };
+		3FC2B9E91C18A5FE0068C4AE /* CastWebAppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B9821C18A5FE0068C4AE /* CastWebAppSession.m */; };
+		3FC2B9EA1C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B9861C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.m */; };
+		3FC2B9EB1C18A5FE0068C4AE /* OrangeCastService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B9881C18A5FE0068C4AE /* OrangeCastService.m */; };
+		3FC2B9EC1C18A5FE0068C4AE /* OrangeCastServiceChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B98A1C18A5FE0068C4AE /* OrangeCastServiceChannel.m */; };
+		3FC2B9ED1C18A5FE0068C4AE /* OrangeCastWebAppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2B98C1C18A5FE0068C4AE /* OrangeCastWebAppSession.m */; };
+		3FC2B9F21C18A5FE0068C4AE /* OrangeCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9E41C18A5FE0068C4AE /* OrangeCast.framework */; };
+		3FC2B9F31C18B0260068C4AE /* libSocketRocketOpenSSL-1.0.0e.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9921C18A5FE0068C4AE /* libSocketRocketOpenSSL-1.0.0e.a */; };
+		3FC2B9F51C18B2B60068C4AE /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC2B9F41C18B2B60068C4AE /* libicucore.tbd */; };
+		3FC2BA511C19D4C40068C4AE /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2BA501C19D4C40068C4AE /* CCViewController.m */; };
+		3FC2BA541C1A086C0068C4AE /* UINavigationController+LockableRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2BA531C1A086C0068C4AE /* UINavigationController+LockableRotation.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CCViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9CFFA7F5703AA6881ECAE982 /* Pods_ConnectSDK_CompanionLibrary_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E0BC88C5617F58FA5D03CF /* Pods_ConnectSDK_CompanionLibrary_iOS_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F9733F4780A185549F7249DE /* Pods_ConnectSDK_CompanionLibrary_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411289B4841BB65EE0B3A2B8 /* Pods_ConnectSDK_CompanionLibrary_iOS_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9CFFA7F5703AA6881ECAE982 /* Pods_ConnectSDK_CompanionLibrary_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E0BC88C5617F58FA5D03CF /* Pods_ConnectSDK_CompanionLibrary_iOS_Example.framework */; };
+		F9733F4780A185549F7249DE /* Pods_ConnectSDK_CompanionLibrary_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411289B4841BB65EE0B3A2B8 /* Pods_ConnectSDK_CompanionLibrary_iOS_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +49,109 @@
 
 /* Begin PBXFileReference section */
 		16CD0C2E4B968614AE6AAFE6 /* ConnectSDK-CompanionLibrary-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "ConnectSDK-CompanionLibrary-iOS.podspec"; path = "../ConnectSDK-CompanionLibrary-iOS.podspec"; sourceTree = "<group>"; };
+		3FC2B9791C18A5FE0068C4AE /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleCast.framework; sourceTree = "<group>"; };
+		3FC2B97B1C18A5FE0068C4AE /* CastDiscoveryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastDiscoveryProvider.h; sourceTree = "<group>"; };
+		3FC2B97C1C18A5FE0068C4AE /* CastDiscoveryProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastDiscoveryProvider.m; sourceTree = "<group>"; };
+		3FC2B97D1C18A5FE0068C4AE /* CastService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastService.h; sourceTree = "<group>"; };
+		3FC2B97E1C18A5FE0068C4AE /* CastService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastService.m; sourceTree = "<group>"; };
+		3FC2B97F1C18A5FE0068C4AE /* CastServiceChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastServiceChannel.h; sourceTree = "<group>"; };
+		3FC2B9801C18A5FE0068C4AE /* CastServiceChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastServiceChannel.m; sourceTree = "<group>"; };
+		3FC2B9811C18A5FE0068C4AE /* CastWebAppSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastWebAppSession.h; sourceTree = "<group>"; };
+		3FC2B9821C18A5FE0068C4AE /* CastWebAppSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastWebAppSession.m; sourceTree = "<group>"; };
+		3FC2B9851C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeCastDiscoveryProvider.h; sourceTree = "<group>"; };
+		3FC2B9861C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeCastDiscoveryProvider.m; sourceTree = "<group>"; };
+		3FC2B9871C18A5FE0068C4AE /* OrangeCastService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeCastService.h; sourceTree = "<group>"; };
+		3FC2B9881C18A5FE0068C4AE /* OrangeCastService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeCastService.m; sourceTree = "<group>"; };
+		3FC2B9891C18A5FE0068C4AE /* OrangeCastServiceChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeCastServiceChannel.h; sourceTree = "<group>"; };
+		3FC2B98A1C18A5FE0068C4AE /* OrangeCastServiceChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeCastServiceChannel.m; sourceTree = "<group>"; };
+		3FC2B98B1C18A5FE0068C4AE /* OrangeCastWebAppSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeCastWebAppSession.h; sourceTree = "<group>"; };
+		3FC2B98C1C18A5FE0068C4AE /* OrangeCastWebAppSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeCastWebAppSession.m; sourceTree = "<group>"; };
+		3FC2B9921C18A5FE0068C4AE /* libSocketRocketOpenSSL-1.0.0e.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSocketRocketOpenSSL-1.0.0e.a"; sourceTree = "<group>"; };
+		3FC2B9961C18A5FE0068C4AE /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		3FC2B9971C18A5FE0068C4AE /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		3FC2B9981C18A5FE0068C4AE /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		3FC2B9991C18A5FE0068C4AE /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		3FC2B99A1C18A5FE0068C4AE /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		3FC2B99B1C18A5FE0068C4AE /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		3FC2B99C1C18A5FE0068C4AE /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		3FC2B99D1C18A5FE0068C4AE /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		3FC2B99E1C18A5FE0068C4AE /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		3FC2B99F1C18A5FE0068C4AE /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		3FC2B9A01C18A5FE0068C4AE /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		3FC2B9A11C18A5FE0068C4AE /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		3FC2B9A21C18A5FE0068C4AE /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		3FC2B9A31C18A5FE0068C4AE /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		3FC2B9A41C18A5FE0068C4AE /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		3FC2B9A51C18A5FE0068C4AE /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		3FC2B9A61C18A5FE0068C4AE /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		3FC2B9A71C18A5FE0068C4AE /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		3FC2B9A81C18A5FE0068C4AE /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		3FC2B9A91C18A5FE0068C4AE /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		3FC2B9AA1C18A5FE0068C4AE /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		3FC2B9AB1C18A5FE0068C4AE /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		3FC2B9AC1C18A5FE0068C4AE /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		3FC2B9AD1C18A5FE0068C4AE /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		3FC2B9AE1C18A5FE0068C4AE /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		3FC2B9AF1C18A5FE0068C4AE /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		3FC2B9B01C18A5FE0068C4AE /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		3FC2B9B11C18A5FE0068C4AE /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		3FC2B9B21C18A5FE0068C4AE /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		3FC2B9B31C18A5FE0068C4AE /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		3FC2B9B41C18A5FE0068C4AE /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		3FC2B9B51C18A5FE0068C4AE /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		3FC2B9B61C18A5FE0068C4AE /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		3FC2B9B71C18A5FE0068C4AE /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		3FC2B9B81C18A5FE0068C4AE /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		3FC2B9B91C18A5FE0068C4AE /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		3FC2B9BA1C18A5FE0068C4AE /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		3FC2B9BB1C18A5FE0068C4AE /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		3FC2B9BC1C18A5FE0068C4AE /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		3FC2B9BD1C18A5FE0068C4AE /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		3FC2B9BE1C18A5FE0068C4AE /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		3FC2B9BF1C18A5FE0068C4AE /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		3FC2B9C01C18A5FE0068C4AE /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		3FC2B9C11C18A5FE0068C4AE /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		3FC2B9C21C18A5FE0068C4AE /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		3FC2B9C31C18A5FE0068C4AE /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		3FC2B9C41C18A5FE0068C4AE /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		3FC2B9C51C18A5FE0068C4AE /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		3FC2B9C61C18A5FE0068C4AE /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		3FC2B9C71C18A5FE0068C4AE /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		3FC2B9C81C18A5FE0068C4AE /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		3FC2B9C91C18A5FE0068C4AE /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		3FC2B9CA1C18A5FE0068C4AE /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		3FC2B9CB1C18A5FE0068C4AE /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		3FC2B9CC1C18A5FE0068C4AE /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		3FC2B9CD1C18A5FE0068C4AE /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		3FC2B9CE1C18A5FE0068C4AE /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		3FC2B9CF1C18A5FE0068C4AE /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		3FC2B9D01C18A5FE0068C4AE /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		3FC2B9D11C18A5FE0068C4AE /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		3FC2B9D21C18A5FE0068C4AE /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		3FC2B9D31C18A5FE0068C4AE /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		3FC2B9D41C18A5FE0068C4AE /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		3FC2B9D51C18A5FE0068C4AE /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		3FC2B9D61C18A5FE0068C4AE /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		3FC2B9D71C18A5FE0068C4AE /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		3FC2B9D81C18A5FE0068C4AE /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		3FC2B9D91C18A5FE0068C4AE /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		3FC2B9DA1C18A5FE0068C4AE /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		3FC2B9DB1C18A5FE0068C4AE /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		3FC2B9DC1C18A5FE0068C4AE /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		3FC2B9DD1C18A5FE0068C4AE /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		3FC2B9DE1C18A5FE0068C4AE /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		3FC2B9DF1C18A5FE0068C4AE /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		3FC2B9E01C18A5FE0068C4AE /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		3FC2B9E21C18A5FE0068C4AE /* SocketRocketOpenSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketRocketOpenSSL.h; sourceTree = "<group>"; };
+		3FC2B9E31C18A5FE0068C4AE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		3FC2B9E41C18A5FE0068C4AE /* OrangeCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OrangeCast.framework; sourceTree = "<group>"; };
+		3FC2B9F41C18B2B60068C4AE /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		3FC2BA4F1C19D4C40068C4AE /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		3FC2BA501C19D4C40068C4AE /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		3FC2BA521C1A086C0068C4AE /* UINavigationController+LockableRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LockableRotation.h"; sourceTree = "<group>"; };
+		3FC2BA531C1A086C0068C4AE /* UINavigationController+LockableRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LockableRotation.m"; sourceTree = "<group>"; };
 		411289B4841BB65EE0B3A2B8 /* Pods_ConnectSDK_CompanionLibrary_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectSDK_CompanionLibrary_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ConnectSDK-CompanionLibrary-iOS.app"; path = "ConnectSDK-CompanionLibrary-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnectSDK-CompanionLibrary-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -48,10 +161,7 @@
 		6003F59B195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConnectSDK-CompanionLibrary-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = "ConnectSDK-CompanionLibrary-iOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConnectSDK-CompanionLibrary-iOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -72,9 +182,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC2B9F51C18B2B60068C4AE /* libicucore.tbd in Frameworks */,
+				3FC2B9F31C18B0260068C4AE /* libSocketRocketOpenSSL-1.0.0e.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				3FC2B9F21C18A5FE0068C4AE /* OrangeCast.framework in Frameworks */,
+				3FC2B9E51C18A5FE0068C4AE /* GoogleCast.framework in Frameworks */,
 				9CFFA7F5703AA6881ECAE982 /* Pods_ConnectSDK_CompanionLibrary_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +218,189 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3FC2B9761C18A5FE0068C4AE /* ConnectSDKModules */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9771C18A5FE0068C4AE /* GoogleCast */,
+				3FC2B9831C18A5FE0068C4AE /* OrangeCast */,
+			);
+			path = ConnectSDKModules;
+			sourceTree = "<group>";
+		};
+		3FC2B9771C18A5FE0068C4AE /* GoogleCast */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9781C18A5FE0068C4AE /* google-cast */,
+				3FC2B97A1C18A5FE0068C4AE /* google-cast-connectsdk-module */,
+			);
+			path = GoogleCast;
+			sourceTree = "<group>";
+		};
+		3FC2B9781C18A5FE0068C4AE /* google-cast */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9791C18A5FE0068C4AE /* GoogleCast.framework */,
+			);
+			path = "google-cast";
+			sourceTree = "<group>";
+		};
+		3FC2B97A1C18A5FE0068C4AE /* google-cast-connectsdk-module */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B97B1C18A5FE0068C4AE /* CastDiscoveryProvider.h */,
+				3FC2B97C1C18A5FE0068C4AE /* CastDiscoveryProvider.m */,
+				3FC2B97D1C18A5FE0068C4AE /* CastService.h */,
+				3FC2B97E1C18A5FE0068C4AE /* CastService.m */,
+				3FC2B97F1C18A5FE0068C4AE /* CastServiceChannel.h */,
+				3FC2B9801C18A5FE0068C4AE /* CastServiceChannel.m */,
+				3FC2B9811C18A5FE0068C4AE /* CastWebAppSession.h */,
+				3FC2B9821C18A5FE0068C4AE /* CastWebAppSession.m */,
+			);
+			path = "google-cast-connectsdk-module";
+			sourceTree = "<group>";
+		};
+		3FC2B9831C18A5FE0068C4AE /* OrangeCast */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9841C18A5FE0068C4AE /* orange-cast-connectsdk-module */,
+				3FC2B98D1C18A5FE0068C4AE /* orange-cast-sdk */,
+			);
+			path = OrangeCast;
+			sourceTree = "<group>";
+		};
+		3FC2B9841C18A5FE0068C4AE /* orange-cast-connectsdk-module */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9851C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.h */,
+				3FC2B9861C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.m */,
+				3FC2B9871C18A5FE0068C4AE /* OrangeCastService.h */,
+				3FC2B9881C18A5FE0068C4AE /* OrangeCastService.m */,
+				3FC2B9891C18A5FE0068C4AE /* OrangeCastServiceChannel.h */,
+				3FC2B98A1C18A5FE0068C4AE /* OrangeCastServiceChannel.m */,
+				3FC2B98B1C18A5FE0068C4AE /* OrangeCastWebAppSession.h */,
+				3FC2B98C1C18A5FE0068C4AE /* OrangeCastWebAppSession.m */,
+			);
+			path = "orange-cast-connectsdk-module";
+			sourceTree = "<group>";
+		};
+		3FC2B98D1C18A5FE0068C4AE /* orange-cast-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9911C18A5FE0068C4AE /* ac3 */,
+				3FC2B9941C18A5FE0068C4AE /* include */,
+				3FC2B9E41C18A5FE0068C4AE /* OrangeCast.framework */,
+			);
+			path = "orange-cast-sdk";
+			sourceTree = "<group>";
+		};
+		3FC2B9911C18A5FE0068C4AE /* ac3 */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9921C18A5FE0068C4AE /* libSocketRocketOpenSSL-1.0.0e.a */,
+			);
+			path = ac3;
+			sourceTree = "<group>";
+		};
+		3FC2B9941C18A5FE0068C4AE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9951C18A5FE0068C4AE /* openssl */,
+				3FC2B9E11C18A5FE0068C4AE /* SocketRocketOpenSSL */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3FC2B9951C18A5FE0068C4AE /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9961C18A5FE0068C4AE /* aes.h */,
+				3FC2B9971C18A5FE0068C4AE /* asn1.h */,
+				3FC2B9981C18A5FE0068C4AE /* asn1_mac.h */,
+				3FC2B9991C18A5FE0068C4AE /* asn1t.h */,
+				3FC2B99A1C18A5FE0068C4AE /* bio.h */,
+				3FC2B99B1C18A5FE0068C4AE /* blowfish.h */,
+				3FC2B99C1C18A5FE0068C4AE /* bn.h */,
+				3FC2B99D1C18A5FE0068C4AE /* buffer.h */,
+				3FC2B99E1C18A5FE0068C4AE /* camellia.h */,
+				3FC2B99F1C18A5FE0068C4AE /* cast.h */,
+				3FC2B9A01C18A5FE0068C4AE /* cmac.h */,
+				3FC2B9A11C18A5FE0068C4AE /* cms.h */,
+				3FC2B9A21C18A5FE0068C4AE /* comp.h */,
+				3FC2B9A31C18A5FE0068C4AE /* conf.h */,
+				3FC2B9A41C18A5FE0068C4AE /* conf_api.h */,
+				3FC2B9A51C18A5FE0068C4AE /* crypto.h */,
+				3FC2B9A61C18A5FE0068C4AE /* des.h */,
+				3FC2B9A71C18A5FE0068C4AE /* des_old.h */,
+				3FC2B9A81C18A5FE0068C4AE /* dh.h */,
+				3FC2B9A91C18A5FE0068C4AE /* dsa.h */,
+				3FC2B9AA1C18A5FE0068C4AE /* dso.h */,
+				3FC2B9AB1C18A5FE0068C4AE /* dtls1.h */,
+				3FC2B9AC1C18A5FE0068C4AE /* e_os2.h */,
+				3FC2B9AD1C18A5FE0068C4AE /* ebcdic.h */,
+				3FC2B9AE1C18A5FE0068C4AE /* ec.h */,
+				3FC2B9AF1C18A5FE0068C4AE /* ecdh.h */,
+				3FC2B9B01C18A5FE0068C4AE /* ecdsa.h */,
+				3FC2B9B11C18A5FE0068C4AE /* engine.h */,
+				3FC2B9B21C18A5FE0068C4AE /* err.h */,
+				3FC2B9B31C18A5FE0068C4AE /* evp.h */,
+				3FC2B9B41C18A5FE0068C4AE /* hmac.h */,
+				3FC2B9B51C18A5FE0068C4AE /* idea.h */,
+				3FC2B9B61C18A5FE0068C4AE /* krb5_asn.h */,
+				3FC2B9B71C18A5FE0068C4AE /* kssl.h */,
+				3FC2B9B81C18A5FE0068C4AE /* lhash.h */,
+				3FC2B9B91C18A5FE0068C4AE /* md4.h */,
+				3FC2B9BA1C18A5FE0068C4AE /* md5.h */,
+				3FC2B9BB1C18A5FE0068C4AE /* mdc2.h */,
+				3FC2B9BC1C18A5FE0068C4AE /* modes.h */,
+				3FC2B9BD1C18A5FE0068C4AE /* obj_mac.h */,
+				3FC2B9BE1C18A5FE0068C4AE /* objects.h */,
+				3FC2B9BF1C18A5FE0068C4AE /* ocsp.h */,
+				3FC2B9C01C18A5FE0068C4AE /* opensslconf.h */,
+				3FC2B9C11C18A5FE0068C4AE /* opensslv.h */,
+				3FC2B9C21C18A5FE0068C4AE /* ossl_typ.h */,
+				3FC2B9C31C18A5FE0068C4AE /* pem.h */,
+				3FC2B9C41C18A5FE0068C4AE /* pem2.h */,
+				3FC2B9C51C18A5FE0068C4AE /* pkcs12.h */,
+				3FC2B9C61C18A5FE0068C4AE /* pkcs7.h */,
+				3FC2B9C71C18A5FE0068C4AE /* pqueue.h */,
+				3FC2B9C81C18A5FE0068C4AE /* rand.h */,
+				3FC2B9C91C18A5FE0068C4AE /* rc2.h */,
+				3FC2B9CA1C18A5FE0068C4AE /* rc4.h */,
+				3FC2B9CB1C18A5FE0068C4AE /* ripemd.h */,
+				3FC2B9CC1C18A5FE0068C4AE /* rsa.h */,
+				3FC2B9CD1C18A5FE0068C4AE /* safestack.h */,
+				3FC2B9CE1C18A5FE0068C4AE /* seed.h */,
+				3FC2B9CF1C18A5FE0068C4AE /* sha.h */,
+				3FC2B9D01C18A5FE0068C4AE /* srp.h */,
+				3FC2B9D11C18A5FE0068C4AE /* srtp.h */,
+				3FC2B9D21C18A5FE0068C4AE /* ssl.h */,
+				3FC2B9D31C18A5FE0068C4AE /* ssl2.h */,
+				3FC2B9D41C18A5FE0068C4AE /* ssl23.h */,
+				3FC2B9D51C18A5FE0068C4AE /* ssl3.h */,
+				3FC2B9D61C18A5FE0068C4AE /* stack.h */,
+				3FC2B9D71C18A5FE0068C4AE /* symhacks.h */,
+				3FC2B9D81C18A5FE0068C4AE /* tls1.h */,
+				3FC2B9D91C18A5FE0068C4AE /* ts.h */,
+				3FC2B9DA1C18A5FE0068C4AE /* txt_db.h */,
+				3FC2B9DB1C18A5FE0068C4AE /* ui.h */,
+				3FC2B9DC1C18A5FE0068C4AE /* ui_compat.h */,
+				3FC2B9DD1C18A5FE0068C4AE /* whrlpool.h */,
+				3FC2B9DE1C18A5FE0068C4AE /* x509.h */,
+				3FC2B9DF1C18A5FE0068C4AE /* x509_vfy.h */,
+				3FC2B9E01C18A5FE0068C4AE /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		3FC2B9E11C18A5FE0068C4AE /* SocketRocketOpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2B9E21C18A5FE0068C4AE /* SocketRocketOpenSSL.h */,
+				3FC2B9E31C18A5FE0068C4AE /* SRWebSocket.h */,
+			);
+			path = SocketRocketOpenSSL;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +416,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Example.app */,
+				6003F5AE195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +425,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FC2B9F41C18B2B60068C4AE /* libicucore.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -141,12 +439,14 @@
 		6003F593195388D20070C39A /* Example for ConnectSDK-CompanionLibrary-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3FC2BA521C1A086C0068C4AE /* UINavigationController+LockableRotation.h */,
+				3FC2BA531C1A086C0068C4AE /* UINavigationController+LockableRotation.m */,
+				3FC2BA4F1C19D4C40068C4AE /* CCViewController.h */,
+				3FC2BA501C19D4C40068C4AE /* CCViewController.m */,
 				6003F59C195388D20070C39A /* CCAppDelegate.h */,
 				6003F59D195388D20070C39A /* CCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CCViewController.h */,
-				6003F5A6195388D20070C39A /* CCViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				3FC2B9761C18A5FE0068C4AE /* ConnectSDKModules */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ConnectSDK-CompanionLibrary-iOS";
@@ -213,7 +513,7 @@
 			);
 			name = "ConnectSDK-CompanionLibrary-iOS_Example";
 			productName = "ConnectSDK-CompanionLibrary-iOS";
-			productReference = 6003F58A195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS.app */;
+			productReference = 6003F58A195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Tests */ = {
@@ -234,7 +534,7 @@
 			);
 			name = "ConnectSDK-CompanionLibrary-iOS_Tests";
 			productName = "ConnectSDK-CompanionLibrary-iOSTests";
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* ConnectSDK-CompanionLibrary-iOS_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +544,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Amine Bezzarga";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -277,7 +577,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,9 +689,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC2B9E61C18A5FE0068C4AE /* CastDiscoveryProvider.m in Sources */,
 				6003F59E195388D20070C39A /* CCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CCViewController.m in Sources */,
+				3FC2BA541C1A086C0068C4AE /* UINavigationController+LockableRotation.m in Sources */,
+				3FC2B9EA1C18A5FE0068C4AE /* OrangeCastDiscoveryProvider.m in Sources */,
+				3FC2B9ED1C18A5FE0068C4AE /* OrangeCastWebAppSession.m in Sources */,
+				3FC2B9E81C18A5FE0068C4AE /* CastServiceChannel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3FC2B9EC1C18A5FE0068C4AE /* OrangeCastServiceChannel.m in Sources */,
+				3FC2B9E71C18A5FE0068C4AE /* CastService.m in Sources */,
+				3FC2B9EB1C18A5FE0068C4AE /* OrangeCastService.m in Sources */,
+				3FC2BA511C19D4C40068C4AE /* CCViewController.m in Sources */,
+				3FC2B9E91C18A5FE0068C4AE /* CastWebAppSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +760,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -470,6 +779,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -503,6 +813,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -510,13 +821,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7B77CD0CE18EDE37137C9FD /* Pods-ConnectSDK-CompanionLibrary-iOS_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ConnectSDK-CompanionLibrary-iOS/ConnectSDKModules/GoogleCast/google-cast",
+					"$(PROJECT_DIR)/ConnectSDK-CompanionLibrary-iOS/ConnectSDKModules/OrangeCast/orange-cast-sdk",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConnectSDK-CompanionLibrary-iOS/ConnectSDK-CompanionLibrary-iOS-Prefix.pch";
 				INFOPLIST_FILE = "ConnectSDK-CompanionLibrary-iOS/ConnectSDK-CompanionLibrary-iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ConnectSDK-CompanionLibrary-iOS/ConnectSDKModules/OrangeCast/orange-cast-sdk/ac3",
+				);
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -525,13 +847,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A38F0542C06DDA30611301D0 /* Pods-ConnectSDK-CompanionLibrary-iOS_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ConnectSDK-CompanionLibrary-iOS/ConnectSDKModules/GoogleCast/google-cast",
+					"$(PROJECT_DIR)/ConnectSDK-CompanionLibrary-iOS/ConnectSDKModules/OrangeCast/orange-cast-sdk",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConnectSDK-CompanionLibrary-iOS/ConnectSDK-CompanionLibrary-iOS-Prefix.pch";
 				INFOPLIST_FILE = "ConnectSDK-CompanionLibrary-iOS/ConnectSDK-CompanionLibrary-iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ConnectSDK-CompanionLibrary-iOS/ConnectSDKModules/OrangeCast/orange-cast-sdk/ac3",
+				);
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -553,6 +886,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectSDK-CompanionLibrary-iOS_Example.app/ConnectSDK-CompanionLibrary-iOS_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -572,6 +906,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectSDK-CompanionLibrary-iOS_Example.app/ConnectSDK-CompanionLibrary-iOS_Example";
 				WRAPPER_EXTENSION = xctest;
