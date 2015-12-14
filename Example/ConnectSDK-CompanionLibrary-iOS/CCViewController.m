@@ -286,42 +286,42 @@
     
     if([[[ConnectCastManager getInstance] discoveryManager]compatibleDevices] && [[[[ConnectCastManager getInstance] discoveryManager]compatibleDevices]count]>0){
         
-        self.deviceSelectionView = [[[NSBundle MYBundle] loadNibNamed:@"CastDeviceSelectionView" owner:nil options:nil] lastObject];
-        
-        self.deviceSelectionView.frame = CGRectMake(0,self.view.frame.origin.y,
-                                                    self.view.frame.size.width,
-                                                    self.view.frame.size.height);
-        
-        for(ConnectableDevice* device in [[[[ConnectCastManager getInstance] discoveryManager]compatibleDevices]allValues]){
-            CastButton *button = [[CastButton alloc]initWithFrame:CGRectMake(0,0,260, 48)];
-            button.mainTitle = device.friendlyName;
-            button.subTitle = [device connectedServiceNames];
-            [self.deviceSelectionView addButton:button];
-        }
-        
-        self.deviceSelectionView.delegate = self;
-        if(self.detailsChromecastController){
-            [self.detailsChromecastController.view addSubview:self.deviceSelectionView];
-        }else{
-            [self.view addSubview:self.deviceSelectionView];
-        }
-        
-        [self.deviceSelectionView compile];
+//        self.deviceSelectionView = [[[NSBundle MYBundle] loadNibNamed:@"CastDeviceSelectionView" owner:nil options:nil] lastObject];
+//        
+//        self.deviceSelectionView.frame = CGRectMake(0,self.view.frame.origin.y,
+//                                                    self.view.frame.size.width,
+//                                                    self.view.frame.size.height);
+//        
+//        for(ConnectableDevice* device in [[[[ConnectCastManager getInstance] discoveryManager]compatibleDevices]allValues]){
+//            CastButton *button = [[CastButton alloc]initWithFrame:CGRectMake(0,0,260, 48)];
+//            button.mainTitle = device.friendlyName;
+//            button.subTitle = [device connectedServiceNames];
+//            [self.deviceSelectionView addButton:button];
+//        }
+//        
+//        self.deviceSelectionView.delegate = self;
+//        if(self.detailsChromecastController){
+//            [self.detailsChromecastController.view addSubview:self.deviceSelectionView];
+//        }else{
+//            [self.view addSubview:self.deviceSelectionView];
+//        }
+//        
+//        [self.deviceSelectionView compile];
         
         
         //****** display a generic view to pick a device ******
-//        if(![[ConnectCastManager getInstance] isConnecting]){
-//            if (_devicePicker == nil)
-//            {
-//                _devicePicker = [[DiscoveryManager sharedManager] devicePicker];
-//                _devicePicker.delegate = self;
-//            }
-//            
-//            _devicePicker.currentDevice = [ConnectCastManager getInstance].selectedDevice;
-//            //[_devicePicker showPicker:nil];
-//            
-//            [_devicePicker showActionSheet:notification.object];
-//        };
+        if(![[ConnectCastManager getInstance] isConnecting]){
+            if (_devicePicker == nil)
+            {
+                _devicePicker = [[DiscoveryManager sharedManager] devicePicker];
+                _devicePicker.delegate = self;
+            }
+            
+            _devicePicker.currentDevice = [ConnectCastManager getInstance].selectedDevice;
+            //[_devicePicker showPicker:nil];
+            
+            [_devicePicker showActionSheet:notification.object];
+        };
         
     }
 }

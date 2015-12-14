@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AsyncImageView: db9433939160710b34a5c249479e03af2a2121b0
   ConnectSDK: 26e03d16b9846e32bc15abb89e0e679c487fe849
-  ConnectSDK-CompanionLibrary-iOS: 79e594adfd17eb4a957687a1f20419a7243b9285
+  ConnectSDK-CompanionLibrary-iOS: 1c0b94b0075e6828d83985d4be737649811b67da
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547

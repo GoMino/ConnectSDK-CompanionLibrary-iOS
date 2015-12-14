@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = false
 
-#s.resources = 'Pod/Classes/Cast/CastUI/*.{xib}'
+#s.resources = 'Pod/Classes/Cast/CastUI/*.xib'
 #s.resources = 'Pod/Assets/*.png'
-#s.resource = 'Pod/Assets/Images.xcassets'
-  s.source_files = 'Pod/Classes/**/*'
+#s.resource = 'Pod/Classes/**/*.{xib}'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
     #'ConnectSDK-CompanionLibrary-iOS' => ['Pod/Assets/Images.xcassets', 'Pod/Classes/**/*.xib']
     'ConnectSDK-CompanionLibrary-iOS' => ['Pod/Assets/*.png', 'Pod/Classes/**/*.xib']
